@@ -28,15 +28,10 @@ This CI/CD pipeline provides an automated method for building, testing, and depl
 
 ### Continuous Delivery/Deployment
 
-**Step 6 - Monitor Docker Image**:
-   - Monitor the docker image for changes with shell scripts or Argo Image Updater.
-
-**Step 7 - Update Manifests Repository**: 
-   - Update the deployment configurations in the `deployment.yml`.
-
-**Step 8 - Argo CD Deployment**:
+**Step 6 - Argo CD Deployment**:
    - Synchronize the Manifest repository into the Kubernetes cluster.
 
-**Step 9 - Deploy Application on Kubernetes**: 
+**Step 7 - Deploy Application on Kubernetes**: 
    - Deploy application and verify running on the desired number of pods.
+     
 
